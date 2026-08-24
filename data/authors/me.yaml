@@ -1,39 +1,56 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: 方圣磊
-  given: Shenglei Fang
-  pronouns: he/his
-status:
-  icon: "☕️"
-role: PhD Student
+  display: Shenglei Fang
+  given: Shenglei
+  family: Fang
+  pronouns: he/him
+
+role: PhD Researcher in Artificial Intelligence
+
 bio: >
-  I am currently a fourth-year Ph.D. student at Cardiff University, supervised by Dr. You Zhou and Dr. Xianfang Sun.
+  I am a fourth-year PhD researcher at Cardiff University, supervised by
+  Dr You Zhou and Dr Xianfang Sun. My research develops learning systems that
+  respect the geometry and scale structure of data, with current work spanning
+  geometric attention, state-space sequence models, graph learning, and AI for
+  scientific data.
+
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Cardiff University
+    url: https://www.cardiff.ac.uk/
+
 links:
   - icon: at-symbol
-    url: FangS4@cardiff.ac.uk
-    label: E-mail Me
+    url: mailto:FangS4@cardiff.ac.uk
+    label: Email Shenglei Fang
   - icon: brands/github
     url: https://github.com/Fcam34
+    label: GitHub
+
+interests:
+  - Geometric Deep Learning
+  - State Space Models
+  - Graph Neural Networks
+  - Scale-Invariant Learning
+  - AI for Scientific Data
+
 education:
-  - degree: PhD Artificial Intelligence
+  - degree: PhD in Artificial Intelligence
     institution: Cardiff University
     start: 2022-10-01
     end: 2026-12-31
-    
-  - degree: MSc Data Science and Analysis 
+
+  - degree: MSc in Data Science and Analytics
     institution: Cardiff University
     start: 2019-09-01
     end: 2021-03-01
 
-  - degree: BSc Computing Science
+  - degree: BSc in Computing Science
     institution: Shanghai Maritime University
     start: 2013-09-01
-    end: 2017-06-31
+    end: 2017-06-30
 
 experience:
   - role: Data Scientist
@@ -42,31 +59,37 @@ experience:
     end: 2022-10-01
 
   - role: Data Scientist
-    org: Zhangmeng Edu
+    org: Zhangmen Education
     start: 2020-09-01
     end: 2021-09-01
 
 skills:
-  - name: Technical Skills
+  - name: Research & Modelling
+    items:
+      - label: PyTorch
+        level: 5
+      - label: Transformers & State Space Models
+        level: 5
+      - label: Graph Neural Networks
+        level: 5
+      - label: Geometric Deep Learning
+        level: 5
+
+  - name: Scientific Computing
+    color: "#2563eb"
+    color_border: "#60a5fa"
     items:
       - label: Python
-        level: 4
-      - label: RStudio
         level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Hiking
-        level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
+      - label: R
         level: 4
+      - label: Scientific Visualisation
+        level: 4
+      - label: LaTeX
+        level: 4
+
 languages:
+  - name: Chinese
+    level: 5
   - name: English
     level: 5
-  - name: Chinese
-    level: 4
