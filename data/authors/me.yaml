@@ -11,11 +11,12 @@ name:
 role: PhD Researcher in Artificial Intelligence
 
 bio: >
-  I am a fourth-year PhD researcher at Cardiff University, supervised by
-  Dr You Zhou and Dr Xianfang Sun. My research develops learning systems that
-  respect the geometry and scale structure of data, with current work spanning
-  geometric attention, state-space sequence models, graph learning, and AI for
-  scientific data.
+  I am a fourth-year PhD researcher at Cardiff University, working under the
+  supervision of Dr You Zhou and Dr Xianfang Sun. My primary research interest
+  lies in AI for Science - leveraging machine learning to solve complex medical
+  and biological challenges. My current work spans two main areas: developing
+  diagnostic tools for fatty liver disease using ultrasound and clinical data,
+  and advancing AI methods for single-cell and spatial transcriptomics.
 
 affiliations:
   - name: Cardiff University
@@ -30,11 +31,11 @@ links:
     label: GitHub
 
 interests:
+  - AI for Science
+  - Medical Image Analysis
+  - Single-cell and Spatial Transcriptomics
   - Geometric Deep Learning
   - State Space Models
-  - Graph Neural Networks
-  - Scale-Invariant Learning
-  - AI for Scientific Data
 
 education:
   - degree: PhD in Artificial Intelligence
@@ -53,43 +54,17 @@ education:
     end: 2017-06-30
 
 experience:
-  - role: Data Scientist
+  - role: Data Analyst
     org: 58.com
     start: 2021-09-01
     end: 2022-10-01
 
-  - role: Data Scientist
+  - role: Data Analyst
     org: Zhangmen Education
     start: 2020-09-01
     end: 2021-09-01
 
-skills:
-  - name: Research & Modelling
-    items:
-      - label: PyTorch
-        level: 5
-      - label: Transformers & State Space Models
-        level: 5
-      - label: Graph Neural Networks
-        level: 5
-      - label: Geometric Deep Learning
-        level: 5
-
-  - name: Scientific Computing
-    color: "#2563eb"
-    color_border: "#60a5fa"
-    items:
-      - label: Python
-        level: 5
-      - label: R
-        level: 4
-      - label: Scientific Visualisation
-        level: 4
-      - label: LaTeX
-        level: 4
-
-languages:
-  - name: Chinese
-    level: 5
-  - name: English
-    level: 5
+  - role: Data Analyst
+    org: Zhangmen Education
+    start: 2017-09-01
+    end: 2019-08-31

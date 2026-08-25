@@ -3,7 +3,8 @@ title: "Dynamic Fractal Mamba: A Neural Renormalization Group Flow for Scale-Inv
 date: 2026-06-25
 authors:
   - me
-  - et al.
+  - Xianfang Sun
+  - You Zhou
 publication_types:
   - paper-conference
 publication:

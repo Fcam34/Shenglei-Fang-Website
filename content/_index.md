@@ -29,44 +29,109 @@ sections:
     id: research
     content:
       title: Research
-      subtitle: Learning across geometry and scale
-      text: I design neural architectures whose inductive biases reflect the structure of the data they learn from.
+      subtitle: AI for medical and biological discovery
+      text: I develop machine learning methods that connect principled model design with clinically and biologically meaningful applications.
       items:
-        - name: Geometric Deep Learning
-          description: Intrinsic attention mechanisms that compare features consistently across manifolds, graphs, and local coordinate systems.
+        - name: Medical AI & Multimodal Diagnosis
+          description: Learning from ultrasound, medical images, biomarkers, and clinical records to support noninvasive diagnosis and robust disease prediction.
+          icon: hero/heart
+          gradient: from-rose-500 to-orange-500
+          status: active
+          topics:
+            - Medical Imaging
+            - Multimodal Learning
+            - Clinical AI
+
+        - name: Single-cell & Spatial Transcriptomics
+          description: Foundation and representation-learning models for cell annotation, novel cell discovery, and spatial tissue-domain analysis.
+          icon: hero/beaker
+          gradient: from-emerald-500 to-cyan-500
+          status: active
+          topics:
+            - Single-cell RNA-seq
+            - Spatial Omics
+            - Foundation Models
+
+        - name: Geometric & Scale-aware Learning
+          description: Attention and state-space architectures whose inductive biases respect geometry, transport, and multiscale structure.
           icon: hero/cube-transparent
           gradient: from-indigo-500 to-blue-500
           status: active
           topics:
             - Vector Bundles
-            - Parallel Transport
-            - Manifold Learning
-
-        - name: Scale-Invariant Sequence Modelling
-          description: State-space architectures that connect fine-scale dynamics with long-range behaviour through multiscale and renormalisation-inspired structure.
-          icon: hero/arrows-pointing-out
-          gradient: from-blue-500 to-cyan-500
-          status: active
-          topics:
             - Mamba
-            - State Space Models
-            - Fractal Dynamics
-
-        - name: AI for Scientific Data
-          description: Representation learning for structured scientific observations, including single-cell data, spatial transcriptomics, and 3D point clouds.
-          icon: hero/beaker
-          gradient: from-cyan-500 to-teal-500
-          status: active
-          topics:
-            - Single-cell Omics
-            - Spatial Data
-            - Point Clouds
+            - Scale Invariance
     design:
       layout: cards
       background:
         color:
           light: '#f8fafc'
           dark: '#0f172a'
+
+  - block: focus-areas
+    id: projects
+    content:
+      title: Research Projects
+      subtitle: Selected work across AI methodology and applications
+      text: My recent projects combine geometric learning, state-space models, medical AI, and computational biology.
+      items:
+        - name: Vector Bundle Attention (VBA)
+          description: A geometry-informed Transformer that represents tokens as base-fiber pairs with learned transport and curvature-aware attention. Evaluated on single-cell and spatial transcriptomics as well as 3D point-cloud classification.
+          icon: hero/cube-transparent
+          gradient: from-indigo-500 to-violet-500
+          url: https://openreview.net/forum?id=nQ4iLQtsCF
+          topics:
+            - ICML 2026
+            - Geometric Attention
+            - Transcriptomics
+
+        - name: Dynamic Fractal Mamba
+          description: A fractal geometry-inspired multiscale state-space model with shared recursive dynamics across resolutions, designed for robust zero-shot scale generalisation in sequences, spatial omics, and pathology.
+          icon: hero/arrows-pointing-out
+          gradient: from-blue-500 to-cyan-500
+          url: https://openreview.net/forum?id=L8a9GRfoly
+          topics:
+            - ICML 2026
+            - State Space Models
+            - Scale Invariance
+
+        - name: DeepLUS+ for Fatty Liver Disease
+          description: Multimodal deep learning for noninvasive MASH diagnosis using ultrasound and clinical data, validated on multicentre biopsy cohorts and more than 7,000 real-world cases with AUC above 0.96.
+          icon: hero/heart
+          gradient: from-rose-500 to-orange-500
+          topics:
+            - Under Review
+            - Ultrasound
+            - Multimodal Diagnosis
+
+        - name: scSEEK
+          description: A self-supervised expert-embedding foundation model for single-cell RNA-seq, integrating Bio-MoE, multi-head latent attention, and reinforcement-tuned biological knowledge across 599,000 cells.
+          icon: hero/sparkles
+          gradient: from-emerald-500 to-teal-500
+          topics:
+            - Under Review
+            - Single-cell RNA-seq
+            - Foundation Models
+
+        - name: Hybrid Transformer-Mamba for Medical Imaging
+          description: A gated-attention Vision Transformer and Mamba architecture for multimodal disease classification across histopathology, MRI, X-ray, and clinical imaging datasets.
+          icon: hero/photo
+          gradient: from-fuchsia-500 to-pink-500
+          topics:
+            - Under Review
+            - Medical Imaging
+            - Multimodal Learning
+
+        - name: Alzheimer's Disease Prediction
+          description: Deep learning models that combine ADNI MRI images and biomarkers, processing 150 GB of imaging data and more than one million clinical data points for disease prediction.
+          icon: hero/cpu-chip
+          gradient: from-amber-500 to-red-500
+          topics:
+            - Under Review
+            - MRI
+            - Biomarkers
+    design:
+      layout: cards
 
   - block: content-collection
     id: publications
@@ -99,19 +164,14 @@ sections:
           light: '#f8fafc'
           dark: '#0f172a'
 
-  - block: resume-skills
-    id: skills
-    content:
-      title: Research Toolkit
-      username: me
-
   - block: markdown
     id: contact
     content:
       title: Get in touch
       text: >
-        I am always happy to discuss geometric learning, state-space models,
-        scientific machine learning, and research collaborations.
+        I am always happy to discuss AI for Science, medical AI, single-cell
+        and spatial transcriptomics, geometric learning, state-space models,
+        and research collaborations.
 
         [Email me](mailto:FangS4@cardiff.ac.uk) · [GitHub](https://github.com/Fcam34)
     design:
